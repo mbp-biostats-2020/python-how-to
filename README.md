@@ -21,6 +21,7 @@ Don't feel the need to try something more complicated, since it's probably going
 | ---- | ---- |
 | No set up required | Can't run arbitrary code files, you can only run the `main.py` file |
 | Installing packages is handled for you | Can't use your own text editor, need online access |
+| Works regardless of operating system | |
 
 # Experienced setup
 
@@ -38,7 +39,7 @@ Some package managers for various operating systems include:
 | ---- | ---- |
 | Local development, no internet required | Requires some setup |
 | Run whatever scripts you want | Installing the language and various tools for writing code can use up space on your computer |
-| Comes with the Python package manager `pip` | |
+| Comes with the Python package manager `pip` | Some packages only work on certain operating systems or architectures|
 | Use whatever tool for writing code you want, like [PyCharm](https://www.jetbrains.com/pycharm/) or [Visual Studio Code](https://code.visualstudio.com/) | |
 
 # Pro setup
