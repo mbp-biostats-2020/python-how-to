@@ -17,15 +17,10 @@ Don't feel the need to try something more complicated, since it's probably going
 1. Make an account on [Repl.it](https://repl.it)
 2. Make a new Python repl for each script you want to run
 
-## Pros
-
-* No set up, required
-* Installing packages is handled for you
-
-## Cons
-
-* Can't run arbitrary code files, you can only run the `main.py` file
-* Can't use your own text editor, need online access
+| Pros | Cons |
+| ---- | ---- |
+| No set up required | Can't run arbitrary code files, you can only run the `main.py` file |
+| Installing packages is handled for you | Can't use your own text editor, need online access |
 
 # Experienced setup
 
@@ -39,17 +34,12 @@ Some package managers for various operating systems include:
 * [pkg_add](https://www.openbsd.org/faq/faq15.html) (OpenBSD and related Unix distributions)
 * etc
 
-## Pros
-
-* Local development, no internet required
-* Run whatever scripts you want
-* Comes with the Python package manager `pip`
-* Use whatever tool for writing code you want, like [PyCharm](https://www.jetbrains.com/pycharm/) or [Visual Studio Code](https://code.visualstudio.com/)
-
-## Cons
-
-* Requires some setup
-* Installing the language and various tools for writing code can use up space on your computer
+| Pros | Cons |
+| ---- | ---- |
+| Local development, no internet required | Requires some setup |
+| Run whatever scripts you want | Installing the language and various tools for writing code can use up space on your computer |
+| Comes with the Python package manager `pip` | |
+| Use whatever tool for writing code you want, like [PyCharm](https://www.jetbrains.com/pycharm/) or [Visual Studio Code](https://code.visualstudio.com/) | |
 
 # Pro setup
 
@@ -67,13 +57,8 @@ conda install conda-forge::mamba
 
 You can now install whatever packages you want with, including different versions of Python, with `mamba install`.
 
-## Pros
-
-* All of the pros from the [experienced setup](#experienced-setup)
-* Allows installation of multiple versions of Pythons or specific packages
-* Can also manage packages from other langauges, such as R or Rust
-
-## Cons
-
-* Requires multiple tools to be installed, many through the command line
-* Switching and managing environments can be complicated, depending on what you're doing
+| Pros | Cons |
+| ---- | ---- |
+| All of the pros from the [experienced setup](#experienced-setup) | Requires multiple tools to be installed, many through the command line |
+| Allows installation of multiple versions of Pythons or specific packages | Switching and managing environments can be complicated, depending on what you're doing | 
+| Can also manage packages from other langauges, such as R or Rust | |
